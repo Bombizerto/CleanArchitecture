@@ -12,7 +12,6 @@ namespace CleanArchitecture.Application.Features.UserFeatures.DeleteUserByEmail
         public DeleteUserByEmailValidator() 
         {
             RuleFor(x => x.Email).NotEmpty().MaximumLength(50).EmailAddress();
-            RuleFor(x => x.Name).NotEmpty().MinimumLength(3).MaximumLength(50);
         }
     }
 }

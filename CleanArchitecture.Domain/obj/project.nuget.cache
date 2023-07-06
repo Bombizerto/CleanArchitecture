@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f408Z5Ca5BFlsmRY4wben637RK2xMmqtxlVJ3kp4NJToWlF2g/oIE8tFYCG7ZAo9EA1rRKLWwU0m2Hsvg2amjA==",
+  "dgSpecHash": "0W8krt6I3ecwphgtmjUDFc8DNpTCYgp2xaPiAmjIa9rPYmXDe9r0rU3vXf3ARaZGHaGRBWcUlayc+y73JpPnYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture\\CleanArchitectureRepo\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

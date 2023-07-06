@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j7X9tktQREBga2J33oj2hoYpyr7fL5BqDDdc7CmHmr6EpEOPHiqPv26DUZwn6RIl1n83XCkyaKtDb4Ly9vPu6w==",
+  "dgSpecHash": "LQ/0zrbBhLx5RyhPhE1VFo1t6WF9UZTMY0t1F/6cx+dR19LP3PwNLSyeXw/DKNt+JyM67e1jgJkR/dKo24NNYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture\\CleanArchitectureRepo\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aidan.marinelarena\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\aidan.marinelarena\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",

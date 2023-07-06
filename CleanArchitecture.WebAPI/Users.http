@@ -1,0 +1,31 @@
+@hostname = localhost
+@port = 7202
+@url = https://{{hostname}}:{{port}}/user
+
+#Creación de usuario
+POST {{url}}
+Content-Type: application/json
+
+{
+    "name": "Aidan",
+    "email": "aidan.marinelarena@versia.com"
+}
+
+###
+#Busqueda por Email
+POST {{url}}/ByEmail
+Content-Type: application/json
+
+{
+    "email": "aidan.marinelarena@versia.com",
+    "name" : "Aidan"
+}
+
+###
+#Borrado por mail
+DELETE {{url}}/DeleteByEmail
+Content-Type: application/json
+
+{
+    "email": "aidan.marinelarena@versia.com"
+}

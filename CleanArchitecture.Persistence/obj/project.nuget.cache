@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vorhiJ47FUmvpSF0Q5A44YzYLRvLUl6P+Axt/6DUloq+C6YGcxrSRp5svq8+qxAgXS2BNDrH7VONUuKKhuyQqQ==",
+  "dgSpecHash": "21yomiU341lHpYU+9TAE+jtIRf+vrCHGNWfo2YBJD9b3zy7xnnOq8uKXMdCcvtV5WeOzwjuok7MatnvW+Lni7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture.Persistence\\CleanArchitecture.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\aidan.marinelarena\\source\\repos\\CleanArchitecture\\CleanArchitectureRepo\\CleanArchitecture.Persistence\\CleanArchitecture.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aidan.marinelarena\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\aidan.marinelarena\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",

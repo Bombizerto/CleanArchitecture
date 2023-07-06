@@ -24,7 +24,7 @@ namespace CleanArchitecture.Application.Features.UserFeatures.DeleteUserByEmail
         {
             var user = _mapper.Map<User>(request);
             var deleteUser= await _userRepository.GetUserByEmail(user.Email,cancellationToken);
-            if(deleteUser.DateDeleted==null) {
+            if(deleteUser!=null) {
                 _userRepository.Delete(deleteUser);
                 await _unitOfWork.Save(cancellationToken);
                 return _mapper.Map<DeleteUserByEmailResponse>(user);

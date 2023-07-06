@@ -28,7 +28,7 @@ namespace CleanArchitecture.WebAPI.Controller
             var response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
         }
-        [HttpGet]
+        [HttpPost]
         [Route("ByEmail")]
         public async Task<ActionResult<GetUserByEmailResponse>>GetUserByEmail(GetUserByEmailRequest request, CancellationToken cancellationToken)
         {

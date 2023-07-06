@@ -15,7 +15,7 @@ namespace CleanArchitecture.Persistence.Repositories
 
         public Task<User?> GetUserByEmail(string email, CancellationToken cancellationToken)
         {
-            var user = Context.Users.FirstOrDefaultAsync(x => x.Email == email,cancellationToken);
+            var user = Context.Users.FirstOrDefaultAsync(x => x.Email == email && x.DateDeleted == null,cancellationToken);
             return user;
         }
 
