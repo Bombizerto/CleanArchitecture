@@ -16,6 +16,7 @@ namespace CleanArchitecture.Application.Features.UserFeatures.DeleteUserByEmail
         {
             CreateMap<DeleteUserByEmailRequest, User>();
             CreateMap<User, DeleteUserByEmailResponse>();
+            CreateMap<DeleteUserByEmailResponse, User>();
         }
     }
 }

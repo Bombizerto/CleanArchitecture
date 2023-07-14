@@ -15,6 +15,7 @@ namespace CleanArchitecture.Application.Features.UserFeatures.GetUserByEmail
         {
             CreateMap<GetUserByEmailRequest, User>();
             CreateMap<User, GetUserByEmailResponse>();
+            CreateMap<GetUserByEmailResponse, User>();
         }
     }
 }

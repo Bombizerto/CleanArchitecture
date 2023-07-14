@@ -16,6 +16,7 @@ namespace CleanArchitecture.Application.Features.UserFeatures.CreateUser
         {
             CreateMap<CreateUserRequest, User>();
             CreateMap<User, CreateUserResponse>();
+            CreateMap<CreateUserResponse, User>();
         }
     }
 }
